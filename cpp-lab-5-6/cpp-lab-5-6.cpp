@@ -103,8 +103,8 @@ public:
 };
 
 int main() {
-    Customer customer1("John Doe", new SavingsAccount("S123"));
-    Customer customer2("Jane Smith", new CheckingAccount("C456"));
+    Customer customer1("Ivan Petrovich", new SavingsAccount("S123"));
+    Customer customer2("Petr Ivanovich", new CheckingAccount("C456"));
 
     customer1.deposit(1000);
     customer2.deposit(500);
